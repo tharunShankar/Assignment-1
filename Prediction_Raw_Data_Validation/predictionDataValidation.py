@@ -16,10 +16,6 @@ class Prediction_Data_validation:
     """
                This class shall be used for handling all the validation done on the Raw Prediction Data!!.
 
-               Written By: iNeuron Intelligence
-               Version: 1.0
-               Revisions: None
-
                """
 
     def __init__(self,path):
@@ -34,10 +30,6 @@ class Prediction_Data_validation:
                                 Description: This method extracts all the relevant information from the pre-defined "Schema" file.
                                 Output: LengthOfDateStampInFile, LengthOfTimeStampInFile, column_names, Number of Columns
                                 On Failure: Raise ValueError,KeyError,Exception
-
-                                 Written By: iNeuron Intelligence
-                                Version: 1.0
-                                Revisions: None
 
                                         """
         try:

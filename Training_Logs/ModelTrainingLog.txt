@@ -1,0 +1,147 @@
+2022-02-07/10:51:33		Start of Training
+2022-02-07/10:51:33		Entered the get_data method of the Data_Getter class
+2022-02-07/10:51:33		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-02-07/10:51:33		Entered the remove_columns method of the Preprocessor class
+2022-02-07/10:51:33		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-02-07/10:51:33		Entered the separate_label_feature method of the Preprocessor class
+2022-02-07/10:51:33		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-02-07/10:51:33		Entered the is_null_present method of the Preprocessor class
+2022-02-07/10:51:33		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-02-07/10:51:33		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/10:51:35		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/10:51:35		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-07/10:51:36		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-07/10:51:36		Entered the remove_columns method of the Preprocessor class
+2022-02-07/10:51:36		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-02-07/10:51:36		Entered the elbow_plot method of the KMeansClustering class
+2022-02-07/10:51:43		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2022-02-07/10:51:43		Entered the create_clusters method of the KMeansClustering class
+2022-02-07/10:51:44		Entered the save_model method of the File_Operation class
+2022-02-07/10:51:44		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-02-07/10:51:44		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2022-02-07/10:51:44		Entered the get_best_model method of the Model_Finder class
+2022-02-07/10:51:44		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/10:57:03		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 10}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/10:57:03		AUC for XGBoost:0.5
+2022-02-07/10:57:03		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/10:57:28		Random Forest best params: {'criterion': 'gini', 'max_depth': 2, 'max_features': 'auto', 'n_estimators': 10}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/10:57:28		AUC for RF:0.5
+2022-02-07/10:57:28		Entered the save_model method of the File_Operation class
+2022-02-07/10:57:28		Model File RandomForest0 saved. Exited the save_model method of the Model_Finder class
+2022-02-07/10:57:28		Entered the get_best_model method of the Model_Finder class
+2022-02-07/10:57:28		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/10:58:24		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 10}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/10:58:24		Accuracy for XGBoost:1.0
+2022-02-07/10:58:24		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/10:58:41		Random Forest best params: {'criterion': 'gini', 'max_depth': 2, 'max_features': 'auto', 'n_estimators': 50}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/10:58:41		Accuracy for RF:1.0
+2022-02-07/10:58:41		Entered the save_model method of the File_Operation class
+2022-02-07/10:58:41		Model File RandomForest1 saved. Exited the save_model method of the Model_Finder class
+2022-02-07/10:58:41		Entered the get_best_model method of the Model_Finder class
+2022-02-07/10:58:41		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/11:00:21		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 50}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/11:00:21		AUC for XGBoost:0.5
+2022-02-07/11:00:21		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/11:00:40		Random Forest best params: {'criterion': 'gini', 'max_depth': 2, 'max_features': 'auto', 'n_estimators': 10}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/11:00:40		AUC for RF:0.5
+2022-02-07/11:00:40		Entered the save_model method of the File_Operation class
+2022-02-07/11:00:40		Model File RandomForest2 saved. Exited the save_model method of the Model_Finder class
+2022-02-07/11:00:40		Successful End of Training
+2022-02-07/11:06:45		Start of Training
+2022-02-07/11:06:45		Entered the get_data method of the Data_Getter class
+2022-02-07/11:06:45		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-02-07/11:06:45		Entered the remove_columns method of the Preprocessor class
+2022-02-07/11:06:45		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-02-07/11:06:45		Entered the separate_label_feature method of the Preprocessor class
+2022-02-07/11:06:45		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-02-07/11:06:45		Entered the is_null_present method of the Preprocessor class
+2022-02-07/11:06:45		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-02-07/11:06:45		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/11:06:49		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/11:06:49		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-07/11:06:51		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-07/11:06:51		Entered the remove_columns method of the Preprocessor class
+2022-02-07/11:06:51		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-02-07/11:06:51		Entered the elbow_plot method of the KMeansClustering class
+2022-02-07/11:06:57		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2022-02-07/11:06:57		Entered the create_clusters method of the KMeansClustering class
+2022-02-07/11:06:58		Entered the save_model method of the File_Operation class
+2022-02-07/11:06:58		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-02-07/11:06:58		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2022-02-07/11:06:58		Entered the get_best_model method of the Model_Finder class
+2022-02-07/11:06:58		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/11:19:29		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 50}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/11:19:29		AUC for XGBoost:0.8461538461538461
+2022-02-07/11:19:29		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/11:19:59		Random Forest best params: {'criterion': 'gini', 'max_depth': 2, 'max_features': 'auto', 'n_estimators': 10}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/11:19:59		AUC for RF:0.5
+2022-02-07/11:19:59		Entered the save_model method of the File_Operation class
+2022-02-07/11:19:59		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2022-02-07/11:19:59		Entered the get_best_model method of the Model_Finder class
+2022-02-07/11:19:59		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/11:21:26		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 10}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/11:21:26		AUC for XGBoost:1.0
+2022-02-07/11:21:26		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/11:21:44		Random Forest best params: {'criterion': 'gini', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 100}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/11:21:44		AUC for RF:0.875
+2022-02-07/11:21:44		Entered the save_model method of the File_Operation class
+2022-02-07/11:21:44		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-02-07/11:21:44		Entered the get_best_model method of the Model_Finder class
+2022-02-07/11:21:44		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/11:24:53		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 50}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/11:24:53		AUC for XGBoost:0.8493909191583611
+2022-02-07/11:24:53		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/11:25:12		Random Forest best params: {'criterion': 'entropy', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 100}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/11:25:12		AUC for RF:0.6428571428571428
+2022-02-07/11:25:12		Entered the save_model method of the File_Operation class
+2022-02-07/11:25:12		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-02-07/11:25:12		Successful End of Training
+2022-02-07/12:08:23		Start of Training
+2022-02-07/12:08:23		Entered the get_data method of the Data_Getter class
+2022-02-07/12:08:24		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-02-07/12:08:24		Entered the remove_columns method of the Preprocessor class
+2022-02-07/12:08:24		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-02-07/12:08:24		Entered the separate_label_feature method of the Preprocessor class
+2022-02-07/12:08:24		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-02-07/12:08:24		Entered the is_null_present method of the Preprocessor class
+2022-02-07/12:08:24		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-02-07/12:08:24		Entered the impute_missing_values method of the Preprocessor class
+2022-02-07/12:08:37		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-07/12:08:37		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-07/12:08:38		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-07/12:08:38		Entered the remove_columns method of the Preprocessor class
+2022-02-07/12:08:38		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-02-07/12:08:38		Entered the elbow_plot method of the KMeansClustering class
+2022-02-07/12:08:48		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2022-02-07/12:08:48		Entered the create_clusters method of the KMeansClustering class
+2022-02-07/12:08:49		Entered the save_model method of the File_Operation class
+2022-02-07/12:08:49		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-02-07/12:08:49		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2022-02-07/12:08:49		Entered the get_best_model method of the Model_Finder class
+2022-02-07/12:08:49		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/12:27:49		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 50}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/12:27:49		AUC for XGBoost:1.0
+2022-02-07/12:27:49		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/12:28:25		Random Forest best params: {'criterion': 'gini', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 10}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/12:28:25		AUC for RF:0.5
+2022-02-07/12:28:25		Entered the save_model method of the File_Operation class
+2022-02-07/12:28:25		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-02-07/12:28:25		Entered the get_best_model method of the Model_Finder class
+2022-02-07/12:28:25		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/12:30:31		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 10}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/12:30:31		AUC for XGBoost:1.0
+2022-02-07/12:30:31		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/12:30:50		Random Forest best params: {'criterion': 'entropy', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 50}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/12:30:50		AUC for RF:1.0
+2022-02-07/12:30:50		Entered the save_model method of the File_Operation class
+2022-02-07/12:30:50		Model File RandomForest1 saved. Exited the save_model method of the Model_Finder class
+2022-02-07/12:30:50		Entered the get_best_model method of the Model_Finder class
+2022-02-07/12:30:50		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/12:36:40		XGBoost best params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 50}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-02-07/12:36:40		AUC for XGBoost:0.8928571428571428
+2022-02-07/12:36:40		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/12:37:45		Random Forest best params: {'criterion': 'gini', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 50}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-02-07/12:37:45		AUC for RF:0.6071428571428571
+2022-02-07/12:37:45		Entered the save_model method of the File_Operation class
+2022-02-07/12:37:45		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2022-02-07/12:37:45		Successful End of Training

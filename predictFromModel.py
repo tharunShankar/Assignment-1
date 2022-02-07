@@ -43,7 +43,7 @@ class prediction:
             data['clusters']=clusters
             clusters=data['clusters'].unique()
             for i in clusters:
-                cluster_data= data[data['clusters']==i]
+                cluster_data = data[data['clusters']==i]
                 wafer_names = list(cluster_data['Wafer'])
                 cluster_data=data.drop(labels=['Wafer'],axis=1)
                 cluster_data = cluster_data.drop(['clusters'],axis=1)
