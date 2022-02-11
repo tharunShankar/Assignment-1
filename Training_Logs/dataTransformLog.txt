@@ -25,3 +25,12 @@
 2022-02-07/12:06:15		 wafer_28012020_090817.csv: File Transformed successfully!!
 2022-02-07/12:06:16		 wafer_28042020_031911.csv: File Transformed successfully!!
 2022-02-07/12:06:16		 wafer_29012020_050617.csv: File Transformed successfully!!
+2022-02-09/22:25:44		 wafer_13012020_090817.csv: File Transformed successfully!!
+2022-02-09/22:25:45		 wafer_16012020_051629.csv: File Transformed successfully!!
+2022-02-09/22:25:45		 wafer_20022020_090716.csv: File Transformed successfully!!
+2022-02-09/22:25:46		 wafer_21012020_080913.csv: File Transformed successfully!!
+2022-02-09/22:25:47		 wafer_23012020_041211.csv: File Transformed successfully!!
+2022-02-09/22:25:47		 wafer_27012020_080911.csv: File Transformed successfully!!
+2022-02-09/22:25:48		 wafer_28012020_090817.csv: File Transformed successfully!!
+2022-02-09/22:25:48		 wafer_28042020_031911.csv: File Transformed successfully!!
+2022-02-09/22:25:49		 wafer_29012020_050617.csv: File Transformed successfully!!
